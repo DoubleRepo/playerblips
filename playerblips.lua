@@ -4,7 +4,7 @@ Citizen.CreateThread(function()
 
 		Wait( 1 )
 		-- show blips
-		for id = 0, 64 do
+		for id = 0, 255 do
 
 			if NetworkIsPlayerActive( id ) and GetPlayerPed( id ) ~= GetPlayerPed( -1 ) then
 
